@@ -13,9 +13,9 @@ function App() {
       <AuthContextProvider>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
+          <Route path="/react-netflix/" element={<Home />} />
+          <Route path="/react-netflix/login" element={<Login />} />
+          <Route path="/react-netflix/signup" element={<Signup />} />
           <Route
             path="/account"
             element={

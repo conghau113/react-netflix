@@ -14,7 +14,7 @@ const Login = () => {
     setError('')
     try {
       await logIn(email, password)
-      navigate('/')
+      navigate('/react-netflix/')
     } catch (error) {
       // console.log(error);
       setError(error.message)
@@ -60,7 +60,7 @@ const Login = () => {
               </div>
               <p className="py-4">
                 <span className="text-gray-600">New to Netflix?</span>{" "}
-                <Link to="/signup">Sign Up</Link>
+                <Link to="/react-netflix/signup">Sign Up</Link>
               </p>
             </form>
           </div>
